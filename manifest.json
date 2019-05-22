@@ -13,6 +13,16 @@
     "background":{
       "scripts":["background.js"]
     },
+
+    "commands": {
+        "refine-search": {
+            "suggested_key": {
+                "default": "Ctrl+Z",
+                "mac": "Command+Z"
+            },
+            "description": "Refine search results time frame"
+        }
+    },
   
     "permissions": [
       "activeTab",
